@@ -10,7 +10,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-Frame-Options" content="deny">
 	<title>
-		<?php if (is_home () ) { bloginfo('name'); echo ' | '; bloginfo('description'); } elseif ( is_category() ) { single_cat_title(); echo ' | by @mijustin';  } elseif (is_single() ) { single_post_title(); echo ' | by @mijustin'; } elseif (is_page() ) { single_post_title(); echo ' | by @mijustin'; } else { wp_title('',true); echo ' | by @mijustin'; } ?>
+		<?php if (is_home () ) { bloginfo('name'); echo ' | '; bloginfo('description'); } elseif ( is_category() ) { single_cat_title(); echo ' | by @jovica';  } elseif (is_single() ) { single_post_title(); echo ' | by @jovica'; } elseif (is_page() ) { single_post_title(); echo ' | by @jovica'; } else { wp_title('',true); echo ' | by @jovica'; } ?>
 	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
@@ -31,7 +31,7 @@
     <?php bloginfo('name'); ?>
   </h1>
   <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
-  <p style="margin-top:0;"><img src="https://justinjackson.ca/wp-content/themes/text/favicon.ico" alt="JJ"> <em>Hi! I'm <a href="https://twitter.com/mijustin">@mijustin</a>. I want to help you reach more people with the things you create. You can text me here: +1-424-247-5762</em></p>
+  <p style="margin-top:0;"><img src="https://justinjackson.ca/wp-content/themes/text/favicon.ico" alt="JJ"> <em>Hi! I'm <a href="https://twitter.com/jovica">@jovica</a>. I write about my experiments in linux, vim and life.</em></p>
 </header>
 <?php } ?>
 <article<?php if(is_single()) { ?> class="red"<?php } ?>>
